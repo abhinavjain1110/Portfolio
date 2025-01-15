@@ -7,6 +7,9 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { em } from "framer-motion/client";
 
+const service_id=import.meta.env.VITE_SERVICE_ID; 
+const template_id=import.meta.env.VITE_TEMPLATE_ID; 
+const public_id=import.meta.env.VITE_PUBLIC_ID; 
 
 const Contact =()=>{
     const formRef=useRef();
@@ -25,13 +28,13 @@ const Contact =()=>{
         e.preventDefault();
         setLoading(true);
 
-        emailjs.send('service_9qk1maj','template_ny646oe',{
+        emailjs.send(service_id,template_id,{
             from_name: form.name,
             to_name: "Abhinav",
             from_email: form.email,
             to_email: 'abhinavjain272@gmail.com',
             message: form.message,
-        },'YGNmiCIogUnuJWcfR')
+        },public_id)
         .then(()=>{
             setLoading(false);
             alert('Thank you. I will get back to you as soon as possible.');

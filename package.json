@@ -14,6 +14,7 @@
     "@react-three/drei": "^9.120.5",
     "@react-three/fiber": "^8.17.10",
     "3d-port": "file:",
+    "dotenv": "^16.4.7",
     "framer-motion": "^11.16.0",
     "lodash": "^4.17.21",
     "maath": "^0.10.8",

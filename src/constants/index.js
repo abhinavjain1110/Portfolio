@@ -1,3 +1,4 @@
+import { title } from "framer-motion/client";
 import {
     mobile,
     backend,
@@ -20,9 +21,15 @@ import {
     tesla,
     shopify,
     carrent,
+    cryptotracker,
     jobit,
     tripguide,
     threejs,
+    blog,
+    news,
+    python,
+    java,
+    dsa
   } from "../assets";
   
   export const navLinks = [
@@ -30,10 +37,14 @@ import {
       id: "about",
       title: "About",
     },
-    {
+    /* {
       id: "work",
       title: "Work",
-    },
+    } */
+   {
+    id: "project",
+    title: "Projects"
+   },
     {
       id: "contact",
       title: "Contact",
@@ -46,7 +57,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Software Developer",
       icon: mobile,
     },
     {
@@ -54,12 +65,24 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Frontend Developer",
       icon: creator,
     },
   ];
   
   const technologies = [
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    /* {
+      name: "DSA",
+      icon: dsa,
+    }, */
     {
       name: "HTML 5",
       icon: html,
@@ -73,16 +96,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -198,9 +213,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Crypto Currency Tracker",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web-based platform that enables users to seamlessly track, analyze, and manage cryptocurrency transactions , offering a comprehensive and visually engaging solution for crypto portfolio management.",
       tags: [
         {
           name: "react",
@@ -215,13 +230,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: cryptotracker,
+      source_code_link: "https://github.com/abhinavjain1110/CryptoTracer",
     },
     {
-      name: "Job IT",
+      name: "Blogging Application",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web application that empowers users to create, publish, and manage blogs, explore diverse content from other writers, and engage with a community of readers through comments and discussions.",
       tags: [
         {
           name: "react",
@@ -232,24 +247,24 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "nodejs",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: blog,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "News App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A web application that delivers real-time news updates, allowing users to explore curated articles across various categories, and personalize their news feed for a tailored reading experience.",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "restapi",
           color: "green-text-gradient",
         },
         {
@@ -257,8 +272,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: news,
+      source_code_link: "https://github.com/abhinavjain1110/News-App",
     },
   ];
   
