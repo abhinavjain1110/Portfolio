@@ -44,9 +44,9 @@ const Navbar =()=>{
                         font-medium cursor-pointer`}
                         onClick={() => setActive(link.title)}
                         >
-                            <a href={`#${link.id}`}>
-                                {link.title}
-                            </a>
+                            <Link to={`/${link.id}`} className="text-[16px]">
+                                    {link.title}
+                                    </Link>
                         </li>
                     ))
                 }
@@ -76,9 +76,9 @@ const Navbar =()=>{
                                     setActive(link.title);
                                 }}
                                 >
-                                    <a href={`#${link.id}`}>
-                                        {link.title}
-                                    </a>
+                                    <Link to={`/${link.id}`} className="text-[16px]">
+                                    {link.title}
+                                    </Link>
                                 </li>
                             ))
                         }
