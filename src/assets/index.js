@@ -29,7 +29,7 @@ import tesla from "./company/tesla.png";
 import dsa from "./tech/dsa.png";
 
 import carrent from "./carrent.png";
-import cryptotracker from "./cryptotracker.png";
+import cryptotracker from "./cryptoTracker.png";
 import blog from "./blog.png";
 import jobit from "./jobit.png";
 import news from "./news.png";
