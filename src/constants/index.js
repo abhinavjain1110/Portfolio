@@ -84,14 +84,6 @@ import {
       icon: dsa,
     }, */
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -100,13 +92,28 @@ import {
       icon: reactjs,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
     },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    
+    
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    
     {
       name: "MongoDB",
       icon: mongodb,
@@ -115,10 +122,7 @@ import {
       name: "Three JS",
       icon: threejs,
     },
-    {
-      name: "git",
-      icon: git,
-    },
+    
     {
       name: "figma",
       icon: figma,
