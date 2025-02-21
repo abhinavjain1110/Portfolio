@@ -29,7 +29,10 @@ import {
     news,
     python,
     java,
-    dsa
+    dsa,
+    linkedin,
+    git_profile,
+    leetcode
   } from "../assets";
   
   export const navLinks = [
@@ -44,6 +47,10 @@ import {
    {
     id: "project",
     title: "Projects"
+   },
+   {
+    id: "profile",
+    title: "Profiles"
    },
     {
       id: "contact",
@@ -281,4 +288,69 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  const profile = [
+    {
+      name: "LinkedIn",
+      description:
+        "Student at GU | Full Stack Developer Proficient in Node.js and React.js | Seeking Opportunities to Innovate and Contribute",
+      /* tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ], */
+      image: linkedin,
+      source_code_link: "https://www.linkedin.com/in/abhinav-jain1110/",
+    },
+    {
+      name: "Github",
+      description:
+        "Full Stack Developer |Passionate about Programming and Data Structures |Python & Java Enthusiast |Aspiring Tech Leader|(Student at GU)",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: git_profile,
+      source_code_link: "https://github.com/abhinavjain1110/",
+    },
+    {
+      name: "Leetcode",
+      description:
+        "Computer Science Student at GU | Programming & Data Structures Enthusiast | Java & Python Enthusiast",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: leetcode,
+      source_code_link: "https://leetcode.com/u/abhinavjain11102004/",
+    },
+  ];
+  export { services, technologies, experiences, testimonials, projects,profile };

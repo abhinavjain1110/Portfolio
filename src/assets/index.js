@@ -34,6 +34,9 @@ import blog from "./blog.png";
 import jobit from "./jobit.png";
 import news from "./news.png";
 import tripguide from "./tripguide.png";
+import linkedin from "./linkedin.png";
+import git_profile from "./git_profile.png";
+import leetcode from "./leetcode.png";
 
 export {
   logo,
@@ -70,4 +73,7 @@ export {
   tripguide,
   news,
   dsa,
+  linkedin,
+  git_profile,
+  leetcode
 };

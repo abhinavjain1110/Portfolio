@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Tech from './components/Tech';
 import Works from './components/Works';
 import Stars from './components/canvas/Stars';
+import Profiles from "./components/Profiles";
 
 const App = () => {
   
@@ -20,6 +21,7 @@ const App = () => {
         <Routes>
         <Route path="/" element={<AboutAndTech />} />
         <Route path="/project" element={<Works />} />
+        <Route path="/profile" element={<Profiles />} />
         {/* /*<div className="relative z-0">*/ }
         <Route path="/contact" element={<ContactAndStars />} />
         {/* </div> */}
