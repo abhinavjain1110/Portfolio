@@ -12,6 +12,28 @@ const styles = {
       "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
     sectionSubText:
       "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
+    
+    // New styles for portfolio cards
+    portfolioCard: 
+      "bg-tertiary rounded-2xl p-6 h-[200px] flex flex-col justify-center items-center cursor-pointer transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/20",
+    
+    // Enhanced navigation styles
+    navLink:
+      "relative text-[16px] font-medium cursor-pointer transition-colors duration-300 hover:text-[#915eff]",
+    
+    // Container styles
+    container:
+      "w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    
+    // Gradient styles
+    gradientText:
+      "bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent",
+    
+    // Animation styles
+    fadeIn:
+      "animate-fadeIn",
+    slideUp:
+      "animate-slideUp",
   };
   
   export { styles };
