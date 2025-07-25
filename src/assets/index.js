@@ -31,6 +31,7 @@ import dsa from "./tech/dsa.png";
 import carrent from "./carrent.png";
 import cryptotracker from "./cryptoTracker.png";
 import blog from "./blog.png";
+import neighbour from "./neighbour.png";
 import jobit from "./jobit.png";
 import news from "./news.png";
 import tripguide from "./tripguide.png";
@@ -75,5 +76,6 @@ export {
   dsa,
   linkedin,
   git_profile,
-  leetcode
+  leetcode,
+  neighbour
 };

@@ -32,7 +32,8 @@ import {
     dsa,
     linkedin,
     git_profile,
-    leetcode
+    leetcode,
+    neighbour,
   } from "../assets";
   
   export const navLinks = [
@@ -263,7 +264,32 @@ import {
         },
       ],
       image: blog,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/abhinavjain1110/Blogify",
+    },
+    {
+      name: "NeighbourFit",
+      description:
+        "NeighbourFit is a community-focused fitness web application that helps users find nearby workout partners, join group fitness activities, and stay motivated through shared progress and social engagement.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "express",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: neighbour,
+      source_code_link: "https://github.com/abhinavjain1110/NeighbourFit",
     },
     {
       name: "News App",
